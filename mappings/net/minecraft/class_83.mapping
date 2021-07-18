@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_83
+	FIELD field_395 random Ljava/util/Random;
+	FIELD field_396 client Lnet/minecraft/class_96;
+	METHOD <init> (Lnet/minecraft/class_96;II)V
+		ARG 1 client

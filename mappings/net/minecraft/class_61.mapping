@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_61
+	METHOD <init> (Lnet/minecraft/class_56;Lnet/minecraft/class_2;)V
+		ARG 2 level
+	METHOD method_170 (Lnet/minecraft/class_10;III)Z
+		ARG 1 block

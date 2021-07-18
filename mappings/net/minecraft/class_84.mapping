@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_84
+	FIELD field_400 parentScreen Lnet/minecraft/class_92;
+	METHOD <init> (Lnet/minecraft/class_92;)V
+		ARG 1 parentScreen

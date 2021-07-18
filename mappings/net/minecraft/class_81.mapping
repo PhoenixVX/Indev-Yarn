@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_81
-	METHOD <init> (Ljava/util/Random;)V
-		ARG 1 random

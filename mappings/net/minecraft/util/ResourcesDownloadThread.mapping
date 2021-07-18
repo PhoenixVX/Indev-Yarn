@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_107 net/minecraft/util/ResourcesDownloadThread
+	FIELD field_511 closing Z
+	FIELD field_512 resourcesFolder Ljava/io/File;
+	METHOD <init> (Ljava/io/File;Lnet/minecraft/class_96;)V
+		ARG 1 file
+		ARG 2 client
+	METHOD method_247 downloadResource (Ljava/net/URL;Ljava/io/File;)V
+		ARG 1 url
+		ARG 2 outputFile
+	METHOD run ()V

@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_100 net/minecraft/client/OS
+	FIELD field_482 OSList [Lnet/minecraft/class_100;
+	METHOD method_241 getOSList ()[Lnet/minecraft/class_100;

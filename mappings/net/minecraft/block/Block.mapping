@@ -1,209 +1,130 @@
-CLASS net/minecraft/class_39 net/minecraft/block/Block
-	FIELD field_100 LIGHT_GRAY_WOOL Lnet/minecraft/class_39;
-	FIELD field_101 WHITE_WOOL Lnet/minecraft/class_39;
-	FIELD field_102 DANDELION Lnet/minecraft/class_45;
-	FIELD field_103 ROSE Lnet/minecraft/class_45;
-	FIELD field_104 BROWN_MUSHROOM Lnet/minecraft/class_45;
-	FIELD field_105 RED_MUSHROOM Lnet/minecraft/class_45;
-	FIELD field_106 GOLD_BLOCK Lnet/minecraft/class_39;
-	FIELD field_107 IRON_BLOCK Lnet/minecraft/class_39;
-	FIELD field_108 STONE_SLAB_FULL Lnet/minecraft/class_39;
-	FIELD field_109 STONE_SLAB Lnet/minecraft/class_39;
-	FIELD field_110 BRICKS Lnet/minecraft/class_39;
-	FIELD field_111 TNT Lnet/minecraft/class_39;
-	FIELD field_112 stepSound Lnet/minecraft/class_67;
-	FIELD field_113 blockParticleGravity F
-	FIELD field_114 material Lnet/minecraft/class_92;
-	FIELD field_115 WOOD_STEP_SOUND Lnet/minecraft/class_67;
-	FIELD field_116 GRAVEL_STEP_SOUND Lnet/minecraft/class_67;
-	FIELD field_117 GRASS_STEP_SOUND Lnet/minecraft/class_67;
-	FIELD field_118 STONE_STEP_SOUND Lnet/minecraft/class_67;
-	FIELD field_119 METAL_STEP_SOUND Lnet/minecraft/class_67;
-	FIELD field_120 GLASS_STEP_SOUND Lnet/minecraft/class_67;
-	FIELD field_121 CLOTH_STEP_SOUND Lnet/minecraft/class_67;
-	FIELD field_122 SAND_STEP_SOUND Lnet/minecraft/class_67;
-	FIELD field_123 CAN_BLOCK_GRASS [Z
-	FIELD field_124 POWDER_STEP_SOUND Lnet/minecraft/class_67;
-	FIELD field_125 blockHardness F
-	FIELD field_126 blockResistance F
-	FIELD field_127 BOOKSHELF Lnet/minecraft/class_39;
-	FIELD field_128 MOSSY_COBBLESTONE Lnet/minecraft/class_39;
-	FIELD field_129 OBSIDIAN Lnet/minecraft/class_39;
-	FIELD field_130 TORCH Lnet/minecraft/class_39;
-	FIELD field_131 FIRE Lnet/minecraft/class_51;
-	FIELD field_132 CHEST Lnet/minecraft/class_39;
-	FIELD field_133 GEAR Lnet/minecraft/class_39;
-	FIELD field_134 DIAMOND_ORE Lnet/minecraft/class_39;
-	FIELD field_135 DIAMOND_BLOCK Lnet/minecraft/class_39;
-	FIELD field_136 CRAFTING_TABLE Lnet/minecraft/class_39;
-	FIELD field_137 WHEAT Lnet/minecraft/class_39;
-	FIELD field_138 FARMLAND Lnet/minecraft/class_39;
-	FIELD field_139 FURNACE Lnet/minecraft/class_39;
-	FIELD field_140 LIT_FURNACE Lnet/minecraft/class_39;
-	FIELD field_141 SIGN Lnet/minecraft/class_39;
-	FIELD field_142 DOOR Lnet/minecraft/class_39;
-	FIELD field_143 LADDER Lnet/minecraft/class_39;
-	FIELD field_144 RAIL Lnet/minecraft/class_39;
-	FIELD field_145 textureIndex I
-	FIELD field_146 id I
-	FIELD field_147 minX D
-	FIELD field_148 minY D
-	FIELD field_149 minZ D
-	FIELD field_150 maxX D
-	FIELD field_151 maxY D
-	FIELD field_152 maxZ D
-	FIELD field_153 BLOCKS [Lnet/minecraft/class_39;
-	FIELD field_154 TICKING_BLOCKS [Z
-	FIELD field_155 OPAQUE_BLOCKS [Z
-	FIELD field_156 LIGHT_OPACITY [I
-	FIELD field_157 BLOCK_ILLUMINATION_VALUES [I
-	FIELD field_158 STONE Lnet/minecraft/class_39;
-	FIELD field_159 GRASS Lnet/minecraft/class_47;
-	FIELD field_160 DIRT Lnet/minecraft/class_39;
-	FIELD field_161 COBBLESTONE Lnet/minecraft/class_39;
-	FIELD field_162 PLANKS Lnet/minecraft/class_39;
-	FIELD field_163 SAPLING Lnet/minecraft/class_39;
-	FIELD field_164 BEDROCK Lnet/minecraft/class_39;
-	FIELD field_165 WATER Lnet/minecraft/class_39;
-	FIELD field_166 FLOWING_WATER Lnet/minecraft/class_39;
-	FIELD field_167 LAVA Lnet/minecraft/class_39;
-	FIELD field_168 FLOWING_LAVA Lnet/minecraft/class_39;
-	FIELD field_169 SAND Lnet/minecraft/class_39;
-	FIELD field_170 GRAVEL Lnet/minecraft/class_39;
-	FIELD field_171 GOLD_ORE Lnet/minecraft/class_39;
-	FIELD field_172 IRON_ORE Lnet/minecraft/class_39;
-	FIELD field_173 COAL_ORE Lnet/minecraft/class_39;
-	FIELD field_174 LOG Lnet/minecraft/class_39;
-	FIELD field_175 LEAVES Lnet/minecraft/class_68;
-	FIELD field_176 SPONGE Lnet/minecraft/class_39;
-	FIELD field_177 GLASS Lnet/minecraft/class_39;
-	FIELD field_86 RED_WOOL Lnet/minecraft/class_39;
-	FIELD field_87 ORANGE_WOOL Lnet/minecraft/class_39;
-	FIELD field_88 YELLOW_WOOL Lnet/minecraft/class_39;
-	FIELD field_89 CHARTREUSE_WOOL Lnet/minecraft/class_39;
-	FIELD field_90 GREEN_WOOL Lnet/minecraft/class_39;
-	FIELD field_91 SPRING_GREEN_WOOL Lnet/minecraft/class_39;
-	FIELD field_92 CYAN_WOOL Lnet/minecraft/class_39;
-	FIELD field_93 CAPRI_WOOL Lnet/minecraft/class_39;
-	FIELD field_94 ULTRAMARINE_WOOL Lnet/minecraft/class_39;
-	FIELD field_95 VIOLET_WOOL Lnet/minecraft/class_39;
-	FIELD field_96 PURPLE_WOOL Lnet/minecraft/class_39;
-	FIELD field_97 MAGENTA_WOOL Lnet/minecraft/class_39;
-	FIELD field_98 ROSE_WOOL Lnet/minecraft/class_39;
-	FIELD field_99 GRAY_WOOL Lnet/minecraft/class_39;
-	METHOD <init> (IILnet/minecraft/class_92;)V
-		ARG 1 id
-		ARG 2 textureIndex
-		ARG 3 material
-	METHOD <init> (ILnet/minecraft/class_92;)V
-		ARG 1 id
-		ARG 2 material
-	METHOD method_100 getBoxFromPool (Lnet/minecraft/class_101;III)Lnet/minecraft/class_156;
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD method_101 isOpaque ()Z
-	METHOD method_102 setLightValue (F)Lnet/minecraft/class_39;
-		ARG 1 lightLevel
-	METHOD method_103 onRemove (Lnet/minecraft/class_101;III)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD method_104 onDestroyed (Lnet/minecraft/class_101;IIII)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 side
-	METHOD method_105 randomDisplayTick (Lnet/minecraft/class_101;IIILjava/util/Random;)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 rand
-	METHOD method_108 setTickOnLoad (Z)V
-		ARG 1 isTicking
-	METHOD method_109 renderNormalBlock ()Z
-	METHOD method_110 setResistance (F)Lnet/minecraft/class_39;
+CLASS net/minecraft/class_10 net/minecraft/block/Block
+	FIELD field_33 ORANGE_WOOL Lnet/minecraft/class_10;
+	FIELD field_34 YELLOW_WOOL Lnet/minecraft/class_10;
+	FIELD field_35 LIME_WOOL Lnet/minecraft/class_10;
+	FIELD field_36 GREEN_WOOL Lnet/minecraft/class_10;
+	FIELD field_38 CYAN_WOOL Lnet/minecraft/class_10;
+	FIELD field_39 BLUE_WOOL Lnet/minecraft/class_10;
+	FIELD field_40 PURPLE_WOOL Lnet/minecraft/class_10;
+	FIELD field_41 INDIGO_WOOL Lnet/minecraft/class_10;
+	FIELD field_42 VIOLET_WOOL Lnet/minecraft/class_10;
+	FIELD field_43 MAGENTA_WOOL Lnet/minecraft/class_10;
+	FIELD field_44 PINK_WOOL Lnet/minecraft/class_10;
+	FIELD field_45 DARK_GRAY_WOOL Lnet/minecraft/class_10;
+	FIELD field_46 GRAY_WOOL Lnet/minecraft/class_10;
+	FIELD field_47 WHITE_WOOL Lnet/minecraft/class_10;
+	FIELD field_48 DANDELION_FLOWER Lnet/minecraft/class_10;
+	FIELD field_49 POPPY_FLOWER Lnet/minecraft/class_10;
+	FIELD field_50 BROWN_MUSHROOM Lnet/minecraft/class_10;
+	FIELD field_51 RED_MUSHROOM Lnet/minecraft/class_10;
+	FIELD field_52 GOLD_BLOCK Lnet/minecraft/class_10;
+	FIELD field_53 IRON_BLOCK Lnet/minecraft/class_10;
+	FIELD field_54 DOUBLE_STAIR Lnet/minecraft/class_10;
+	FIELD field_55 SINGLE_STAIR Lnet/minecraft/class_10;
+	FIELD field_56 BRICKS Lnet/minecraft/class_10;
+	FIELD field_59 blockList [Lnet/minecraft/class_10;
+	FIELD field_60 MOSSY_COBBLESTONE Lnet/minecraft/class_10;
+	FIELD field_61 OBSIDIAN Lnet/minecraft/class_10;
+	FIELD field_62 TORCH Lnet/minecraft/class_10;
+	FIELD field_63 materialID I
+	FIELD field_64 atlasID I
+	FIELD field_65 minX F
+	FIELD field_66 minY F
+	FIELD field_67 minZ F
+	FIELD field_68 maxX F
+	FIELD field_69 maxY F
+	FIELD field_70 maxZ F
+	FIELD field_72 opaqueBlockList [Z
+	FIELD field_73 canBlockGrass [Z
+	FIELD field_74 resistance I
+	FIELD field_75 blockTickerList [Z
+	FIELD field_76 lightOpacityList [I
+	FIELD field_77 containerBlocks [Z
+	FIELD field_78 lightValue [I
+	FIELD field_79 STONE Lnet/minecraft/class_10;
+	FIELD field_80 GRASS Lnet/minecraft/class_10;
+	FIELD field_81 DIRT Lnet/minecraft/class_10;
+	FIELD field_82 COBBLESTONE Lnet/minecraft/class_10;
+	FIELD field_83 PLANKS Lnet/minecraft/class_10;
+	FIELD field_84 SAPLING Lnet/minecraft/class_10;
+	FIELD field_85 BEDROCK Lnet/minecraft/class_10;
+	FIELD field_86 MOVING_WATER Lnet/minecraft/class_10;
+	FIELD field_87 STILL_WATER Lnet/minecraft/class_10;
+	FIELD field_88 MOVING_LAVA Lnet/minecraft/class_10;
+	FIELD field_89 STILL_LAVA Lnet/minecraft/class_10;
+	FIELD field_90 SAND Lnet/minecraft/class_10;
+	FIELD field_91 GRAVEL Lnet/minecraft/class_10;
+	FIELD field_92 GOLD_ORE Lnet/minecraft/class_10;
+	FIELD field_93 IRON_ORE Lnet/minecraft/class_10;
+	FIELD field_94 COAL_ORE Lnet/minecraft/class_10;
+	FIELD field_99 RED_WOOL Lnet/minecraft/class_10;
+	METHOD <init> (I)V
+		ARG 1 atlasID
+	METHOD <init> (II)V
+		ARG 1 atlasID
+		ARG 2 materialID
+	METHOD method_47 isOpaque ()Z
+	METHOD method_48 setResistance (F)Lnet/minecraft/class_10;
 		ARG 1 resistance
-	METHOD method_111 setLightOpacity (I)Lnet/minecraft/class_39;
-		ARG 1 lightLevel
-	METHOD method_113 shouldSideBeRendered (Lnet/minecraft/class_101;IIII)Z
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 side
-	METHOD method_115 isCollidable ()Z
-	METHOD method_116 getCollisionBoxFromPool (Lnet/minecraft/class_101;III)Lnet/minecraft/class_156;
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD method_117 onNeighborUpdate (Lnet/minecraft/class_101;IIII)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 side
-	METHOD method_118 getTickRate ()I
-	METHOD method_119 onPlace (Lnet/minecraft/class_101;III)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD method_123 dropStacks (Lnet/minecraft/class_101;IIII)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD method_125 getBlockBrightness (Lnet/minecraft/class_101;III)F
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD method_82 getRenderType ()I
-	METHOD method_83 setHardness (F)Lnet/minecraft/class_39;
-		ARG 1 hardness
-	METHOD method_84 setHitbox (FFFFFF)V
+	METHOD method_49 setBounds (FFFFFF)V
 		ARG 1 minX
 		ARG 2 minY
 		ARG 3 minZ
 		ARG 4 maxX
 		ARG 5 maxY
 		ARG 6 maxZ
-	METHOD method_85 getTextureIndex (I)I
+	METHOD method_50 getBlockTextureFromSide (I)I
 		ARG 1 side
-			COMMENT a number from 0 to 5, depending on which side the texture is for. 0 is bottom, 1 is top.
-	METHOD method_86 getTextureIndex (II)I
-		ARG 1 side
-		ARG 2 meta
-	METHOD method_87 getDrop (ILjava/util/Random;)I
-		ARG 1 id
-		ARG 2 rand
-	METHOD method_89 getDroppedStackCount (Ljava/util/Random;)I
-		ARG 1 rand
-	METHOD method_91 getMetaTextureIndex (Lnet/minecraft/class_101;IIII)I
-		ARG 1 world
+	METHOD method_51 getSelectedBoundingBox (III)Lnet/minecraft/class_41;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_53 getDrops (Ljava/util/Random;)I
+		ARG 1 random
+	METHOD method_54 (Lnet/minecraft/class_2;)V
+		ARG 1 level
+	METHOD method_55 (Lnet/minecraft/class_2;F)V
+		ARG 1 level
+	METHOD method_56 (Lnet/minecraft/class_2;III)V
+		ARG 1 level
+	METHOD method_57 (Lnet/minecraft/class_2;IIII)V
+		ARG 1 level
+	METHOD method_58 tick (Lnet/minecraft/class_2;IIILjava/util/Random;)V
+		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-		ARG 5 side
-	METHOD method_92 dropStacks (Lnet/minecraft/class_101;IIIIF)V
-		ARG 1 world
-	METHOD method_93 randomTick (Lnet/minecraft/class_101;IIILjava/util/Random;)V
-		ARG 1 world
+		ARG 5 random
+	METHOD method_60 setTicking (Z)V
+		ARG 1 ticking
+	METHOD method_61 rendersNormally ()Z
+	METHOD method_62 setLightValue (F)Lnet/minecraft/class_10;
+		ARG 1 lightValue
+	METHOD method_63 setLightOpacity (I)Lnet/minecraft/class_10;
+		ARG 1 opacity
+	METHOD method_64 getCollisionBox (III)Lnet/minecraft/class_41;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_65 randomTick (Lnet/minecraft/class_2;III)V
+		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-		ARG 5 rand
-	METHOD method_95 use (Lnet/minecraft/class_101;IIILnet/minecraft/class_152;)Z
-		ARG 1 world
+	METHOD method_66 shouldSideBeRendered (Lnet/minecraft/class_2;IIII)Z
+		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-		ARG 5 player
-	METHOD method_98 (Lnet/minecraft/class_152;)F
-		ARG 1 player
+	METHOD method_68 getRenderType ()I
+	METHOD method_69 getBlockBrightness (Lnet/minecraft/class_2;III)F
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_72 (Lnet/minecraft/class_2;III)V
+		ARG 1 level
+	METHOD method_73 getTickRate ()I
+	METHOD method_74 (Lnet/minecraft/class_2;III)V
+		ARG 1 level
+	METHOD method_75 getResistance ()I

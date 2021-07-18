@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_105 net/minecraft/util/Timer
+	FIELD field_500 ticksPerSecond F
+	FIELD field_506 millis J
+	FIELD field_507 seconds J
+	METHOD <init> (F)V
+		ARG 1 ticksPerSecond

@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_82 net/minecraft/gui/screen/OptionsScreen
+	FIELD field_389 parentScreen Lnet/minecraft/class_92;
+	FIELD field_390 title Ljava/lang/String;
+	FIELD field_391 options Lnet/minecraft/class_112;
+	METHOD <init> (Lnet/minecraft/class_92;Lnet/minecraft/class_112;)V
+		ARG 1 parentScreen
+		ARG 2 options

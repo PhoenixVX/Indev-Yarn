@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_1 net/minecraft/util/MathHelper
+	FIELD field_1 SIN_TABLE [F
+	METHOD method_1 (F)F
+		ARG 0 value
+	METHOD method_2 (F)F
+		ARG 0 value
+	METHOD method_3 sqrt (F)F
+		ARG 0 value

@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_92 net/minecraft/gui/Screen
+	FIELD field_416 client Lnet/minecraft/class_96;
+	FIELD field_419 controlList Ljava/util/List;
+	METHOD method_204 init ()V
+	METHOD method_209 (Lnet/minecraft/class_96;II)V
+		ARG 1 client
+	METHOD method_210 close ()V

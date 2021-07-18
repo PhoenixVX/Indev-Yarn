@@ -27,7 +27,7 @@ import java.time.ZoneId
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
-def minecraft_version = "inf-20100618"
+def minecraft_version = "in-20091223-2"
 
 def ENV = System.getenv()
 
@@ -161,7 +161,9 @@ task downloadWantedVersionManifest(dependsOn: downloadVersionsManifest) {
 				FileUtils.copyURLToFile(new URL(manifestVersion.get().url), versionFile)
 			}
 		} else {
-			throw new RuntimeException("No version data for Minecraft version ${minecraft_version}")
+			FileUtils.copyURLToFile(new URL("https://gist.githubusercontent.com/PhoenixVX/6ac7be22aa753f3b6f86b6f4b5e0ae0a/raw/94b6f35150eef8806fc89285a525339f2df21db0/in-20091223-2-manifest.tiny"), versionFile)
+
+			downloadWantedVersionManifest
 		}
 	}
 
@@ -198,14 +200,14 @@ task downloadMcJars(dependsOn: downloadWantedVersionManifest) {
 
 task downloadIntermediary(type: Download) {
 	group = buildMappingGroup
-	def url = "https://maven.concern.i.ng/net/textilemc/intermediary/${minecraft_version}/${minecraft_version}.tiny"
+	def url = "https://gist.githubusercontent.com/PhoenixVX/375a9f721cd191a74aac5b169ebaf52c/raw/1e111837f1ef2cf9c75ceb86b872ba42c7e3d5db/in-20091223-2-intermediary-v1.tiny"
 	src com.google.common.net.UrlEscapers.urlFragmentEscaper().escape(url)
 	dest new File(cacheFilesMinecraft, "${minecraft_version}-intermediary.tiny")
 }
 
 task downloadIntermediaryV2(type: Download) {
 	group = buildMappingGroup
-	def url = "https://maven.concern.i.ng/net/textilemc/intermediary/${minecraft_version}/intermediary-${minecraft_version}-v2.jar"
+	def url = "https://panel.repsy.io/mvn/xxx_inaksis_xxx/indevmc/net/fabricmc/intermediary/in-20091223-2-intermediary/intermediary-in-20091223-2-intermediary-v2.jar"
 	src com.google.common.net.UrlEscapers.urlFragmentEscaper().escape(url)
 	dest new File(cacheFilesMinecraft, "${minecraft_version}-intermediary-v2.jar")
 }
@@ -752,7 +754,12 @@ publishing {
 	}
 	repositories {
 		maven {
-			url "C:/Users/steve/maven"
+			// change to point to your repo, e.g. http://my.org/repo
+			url 'https://panel.repsy.io/mvn/xxx_inaksis_xxx/indevmc/'
+			credentials {
+				username repsyUsername
+				password repsyPassword
+			}
 		}
 	}
 }

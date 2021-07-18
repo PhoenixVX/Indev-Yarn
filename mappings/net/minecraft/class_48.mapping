@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_48
+	FIELD field_240 options Lnet/minecraft/class_112;
+	METHOD <init> (Lnet/minecraft/class_112;)V
+		ARG 1 options

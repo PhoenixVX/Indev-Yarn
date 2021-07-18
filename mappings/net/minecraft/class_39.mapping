@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_39
+	METHOD <init> (IIIILnet/minecraft/class_40;)V
+		ARG 5 vector

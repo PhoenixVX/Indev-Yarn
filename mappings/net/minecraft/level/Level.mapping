@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_2 net/minecraft/level/Level
+	FIELD field_13 random Ljava/util/Random;
+	METHOD method_30 isNormalBlock (III)Z
+	METHOD method_34 getLightBrightness (III)F

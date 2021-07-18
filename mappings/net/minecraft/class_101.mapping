@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_101
+	METHOD <init> (Lnet/minecraft/class_2;FFFFFFLnet/minecraft/class_10;)V
+		ARG 1 level
+		ARG 8 block

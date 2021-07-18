@@ -1,0 +1,12 @@
+CLASS net/minecraft/class_90 net/minecraft/gui/screen/LoadLevelScreen
+	FIELD field_407 title Ljava/lang/String;
+	FIELD field_408 parentScreen Lnet/minecraft/class_92;
+	FIELD field_409 finished Z
+	FIELD field_410 loaded Z
+	FIELD field_411 levels [Ljava/lang/String;
+	FIELD field_412 status Ljava/lang/String;
+	METHOD <init> (Lnet/minecraft/class_92;)V
+		ARG 1 parentScreen
+	METHOD method_203 setLevel ([Ljava/lang/String;)V
+		ARG 1 levels
+	METHOD run ()V

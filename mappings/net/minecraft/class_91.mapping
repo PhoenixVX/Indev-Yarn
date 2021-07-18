@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_91
+	FIELD field_413 parentScreen Lnet/minecraft/class_92;
+	FIELD field_415 options Lnet/minecraft/class_112;
+	METHOD <init> (Lnet/minecraft/class_92;Lnet/minecraft/class_112;)V
+		ARG 1 parentScreen
+		ARG 2 options

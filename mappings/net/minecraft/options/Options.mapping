@@ -1,0 +1,39 @@
+CLASS net/minecraft/class_112 net/minecraft/options/Options
+	FIELD field_515 invertMouse Z
+	FIELD field_516 showFPS Z
+	FIELD field_517 renderDistance I
+	FIELD field_518 fancyGraphics Z
+	FIELD field_519 anaglyph Z
+	FIELD field_520 limitFramerate Z
+	FIELD field_521 forward Lnet/minecraft/class_106;
+	FIELD field_522 left Lnet/minecraft/class_106;
+	FIELD field_523 back Lnet/minecraft/class_106;
+	FIELD field_524 right Lnet/minecraft/class_106;
+	FIELD field_525 jump Lnet/minecraft/class_106;
+	FIELD field_526 use Lnet/minecraft/class_106;
+	FIELD field_527 toggleFog Lnet/minecraft/class_106;
+	FIELD field_528 saveLocation Lnet/minecraft/class_106;
+	FIELD field_529 loadLocation Lnet/minecraft/class_106;
+	FIELD field_530 keyBindings [Lnet/minecraft/class_106;
+	FIELD field_531 numberOfOptions I
+	FIELD field_532 RENDER_DISTANCES [Ljava/lang/String;
+	FIELD field_533 music Z
+	FIELD field_534 sound Z
+	FIELD field_535 chat Lnet/minecraft/class_106;
+	FIELD field_536 client Lnet/minecraft/class_96;
+	FIELD field_537 optionsFile Ljava/io/File;
+	METHOD <init> (Lnet/minecraft/class_96;Ljava/io/File;)V
+		ARG 1 client
+		ARG 2 minecraftDir
+	METHOD method_248 loadOptions ()V
+	METHOD method_249 getDescription (I)Ljava/lang/String;
+		ARG 1 keyBinding
+	METHOD method_250 setKeybinding (II)V
+		ARG 1 keyBinding
+		ARG 2 keyCode
+	METHOD method_251 saveOptions ()V
+	METHOD method_252 getKeybinding (I)Ljava/lang/String;
+		ARG 1 keyBinding
+	METHOD method_253 setKeybindingValue (II)V
+		ARG 1 keyBinding
+		ARG 2 value

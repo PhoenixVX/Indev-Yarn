@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_103
+	FIELD field_483 level Lnet/minecraft/class_2;
+	FIELD field_486 random Ljava/util/Random;
+	METHOD <init> (Lnet/minecraft/class_2;Lnet/minecraft/class_59;)V
+		ARG 1 level

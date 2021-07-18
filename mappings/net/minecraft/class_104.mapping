@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_104
+	METHOD <init> (Lnet/minecraft/class_2;FFFFFF)V
+		ARG 1 level

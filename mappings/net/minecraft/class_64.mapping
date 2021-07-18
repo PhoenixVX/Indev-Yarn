@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_64
+	FIELD field_336 level Lnet/minecraft/class_2;
+	METHOD <init> (Lnet/minecraft/class_2;IIII)V
+		ARG 1 level

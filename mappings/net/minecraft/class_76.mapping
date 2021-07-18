@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_76
+	FIELD field_380 vector Lnet/minecraft/class_40;
+	METHOD <init> (Lnet/minecraft/class_40;)V
+		ARG 1 vector

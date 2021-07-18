@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_93
+	FIELD field_426 displayString Ljava/lang/String;
+	FIELD field_428 enabled Z
+	FIELD field_429 enabled2 Z
