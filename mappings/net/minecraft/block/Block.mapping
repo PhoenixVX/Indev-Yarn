@@ -22,6 +22,8 @@ CLASS net/minecraft/class_10 net/minecraft/block/Block
 	FIELD field_54 DOUBLE_STAIR Lnet/minecraft/class_10;
 	FIELD field_55 SINGLE_STAIR Lnet/minecraft/class_10;
 	FIELD field_56 BRICKS Lnet/minecraft/class_10;
+	FIELD field_57 TNT Lnet/minecraft/class_10;
+	FIELD field_58 BOOKSHELVE Lnet/minecraft/class_10;
 	FIELD field_59 blockList [Lnet/minecraft/class_10;
 	FIELD field_60 MOSSY_COBBLESTONE Lnet/minecraft/class_10;
 	FIELD field_61 OBSIDIAN Lnet/minecraft/class_10;

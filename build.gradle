@@ -753,12 +753,14 @@ publishing {
 
 	}
 	repositories {
-		maven {
-			// change to point to your repo, e.g. http://my.org/repo
-			url 'https://panel.repsy.io/mvn/xxx_inaksis_xxx/indevmc/'
-			credentials {
-				username repsyUsername
-				password repsyPassword
+		if (project.hasProperty("repsyUsername")) {
+			maven {
+				// change to point to your repo, e.g. http://my.org/repo
+				url 'https://panel.repsy.io/mvn/xxx_inaksis_xxx/indevmc/'
+				credentials {
+					username repsyUsername
+					password repsyPassword
+				}
 			}
 		}
 	}
