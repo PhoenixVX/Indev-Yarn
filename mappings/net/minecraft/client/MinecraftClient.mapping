@@ -1,15 +1,20 @@
 CLASS net/minecraft/class_96 net/minecraft/client/MinecraftClient
+	FIELD field_434 resourceDownloadThread Lnet/minecraft/class_107;
 	FIELD field_435 tickCounter I
 	FIELD field_440 previousFrameTime I
 	FIELD field_442 width I
 	FIELD field_443 height I
+	FIELD field_444 level Lnet/minecraft/class_2;
 	FIELD field_446 player Lnet/minecraft/class_47;
 	FIELD field_448 sessionData Lnet/minecraft/class_79;
 	FIELD field_449 serverURL Ljava/lang/String;
 	FIELD field_451 isRunning Z
+	FIELD field_456 options Lnet/minecraft/class_112;
 	FIELD field_459 debug Ljava/lang/String;
 	FIELD field_461 fullscreen Z
+	FIELD field_462 timer Lnet/minecraft/class_105;
 	FIELD field_463 canvas Ljava/awt/Canvas;
+	FIELD field_464 cursor Lorg/lwjgl/input/Cursor;
 	FIELD field_465 currentScreen Lnet/minecraft/class_92;
 	METHOD <init> (Ljava/awt/Canvas;IIZ)V
 		ARG 1 canvas

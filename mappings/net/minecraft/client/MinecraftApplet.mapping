@@ -2,5 +2,8 @@ CLASS net/minecraft/class_42 net/minecraft/client/MinecraftApplet
 	FIELD field_216 client Lnet/minecraft/class_96;
 	FIELD field_217 clientThread Ljava/lang/Thread;
 	FIELD field_218 canvas Ljava/awt/Canvas;
+	METHOD destroy ()V
 	METHOD init ()V
 	METHOD method_130 cleanUp ()V
+	METHOD start ()V
+	METHOD stop ()V
